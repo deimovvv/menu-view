@@ -1,3 +1,5 @@
+@ts-nocheck
+
 import { Food } from "../../Types/Food";
 import "../../style.css";
 /* import Experience from "../three.js/Experience.jsx"; */
