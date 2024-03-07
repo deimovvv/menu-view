@@ -10,10 +10,8 @@ import { View } from "@react-three/drei";
 const Comidas = ({ foods }: { foods: Food[] }) => {
   /* const refContainer = useRef(null) */
   // Definir el tipo de referencia
-  // Definir el tipo de referencia
-  type ContainerRef = React.MutableRefObject<HTMLElement | null>;
-
-  const refContainer: ContainerRef = useRef<HTMLDivElement>(null);
+  const refContainer = useRef<HTMLDivElement>(null);
+  
   const categorias = [
     "PAPASFRITAS",
     "PARAPICAR",
