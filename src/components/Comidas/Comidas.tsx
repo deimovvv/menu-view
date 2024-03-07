@@ -1,4 +1,4 @@
-@ts-nocheck
+// @ts-nocheck
 
 import { Food } from "../../Types/Food";
 import "../../style.css";
@@ -10,9 +10,9 @@ import { useRef } from "react";
 import { View } from "@react-three/drei";
 
 const Comidas = ({ foods }: { foods: Food[] }) => {
-  /* const refContainer = useRef(null) */
+  const refContainer = useRef(null)
   // Definir el tipo de referencia
-  const refContainer = useRef<HTMLDivElement>(null);
+ /*  const refContainer = useRef<HTMLDivElement>(null); */
   
   const categorias = [
     "PAPASFRITAS",
