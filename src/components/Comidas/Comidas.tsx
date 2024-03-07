@@ -4,7 +4,7 @@ import "../../style.css";
 import Footer from "../Footer/Footer";
 import ExperienceView from './../three.js/ExperienceView';
 import { Canvas } from "@react-three/fiber";
-import { useRef, RefObject  } from "react";
+import { useRef } from "react";
 import { View } from "@react-three/drei";
 
 const Comidas = ({ foods }: { foods: Food[] }) => {
